@@ -204,8 +204,9 @@ article {
 	margin-right: 20px;
 	margin-top: -310px;
 	text-transform: lowercase;
-	line-height: 25px;
-	font-family: verdana;
+	line-height: 28px;
+	font-family: helvetica;
+	font-size: 20px;
 }
 
 b {
@@ -309,4 +310,9 @@ textarea {
 h1 a {
 	color: #FBFCD0;
 }
+
+footer h1 {
+	padding-bottom: 150px;
+}
+
 
