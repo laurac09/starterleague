@@ -81,21 +81,26 @@ table {
 .omega{margin-right:0px;}
 
 h1 {
-	color: #FBFCD0; 
+	color: #7A21A6; 
 	font-family: impact; 
 	font-size: 70px; 
-	background-color: #7B86E2; 
+	/*background-color: #F7FE72;*/
+	background-color: #F6F1F9;
+	background-opacity: 40%; 
 	margin-bottom: -25px;
-	padding-top: 25px;
+	padding-top: 24px;
 	text-shadow: 0px 1px 0px #D1E7F9;
+}
 
+h1 a {
+	color: #7A21A6;
 }
 
 h2 {
-	color: #7B86E2; 
+	color: #7A21A6; 
 	font-family: impact; 
 	font-size: 40px; 
-	background-color: #D1E7F9;
+	background-color: #F6F1F9;
 	margin-top: 20px;
 	margin-bottom: 20px; 
 }
@@ -104,10 +109,13 @@ body {
 /*	background-color: #FBFCD0; */
 	color: #7286B5; 
 	font-family: verdana;
-	margin: 0 auto;z
+	margin: 0 auto;
 	width: 1000px;
-	background-size: 1000px;
-	background-image: url('images/Chevron.jpg');
+/*	background-size: 1000px;*/
+	background-image: url('../images/FreeGreatPicture.com-26189-abstract-color-background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 h3 {
@@ -144,7 +152,7 @@ div {
 
 #navbar ul {
 	margin: 0; 
-	padding: 4px; 
+	padding: 5px; 
 	list-style-type: none; 
 	text-align: right; 
 }
@@ -157,14 +165,14 @@ div {
 	text-decoration: none; 
 	padding: .2em 1em; 
 	color: #fff; 
-	background-color: #a8a8a8;
+	background-color: #7C07A9;
 	border-top-right-radius: 7px;
 	border-top-left-radius: 7px;
 	} 
  
 #navbar ul li a:hover { 
-	color: #000; 
-	background-color: #FBFCD0; 
+	color: #FFF; 
+	background-color: #33CCCC; 
 	} 
 
 #quote {
@@ -173,7 +181,7 @@ div {
 
 .background1 {
 	/*background-color: #FBFCD0*/
-	background-image: url('images/Chevron.jpg');
+	/*background-image: url('../images/tileable_wood_texture.png');*/
 }
 
 header img {
@@ -214,7 +222,7 @@ b {
 	font-family: verdana; 
 	font-weight: bold; 
 	font-size: 25px; 
-	color: #00ced1;
+	color: #33CCCC;
 }
 
 article img {
@@ -228,7 +236,7 @@ article p {
 	margin-left: 10px;
 	margin-top: 0px;
 	padding-top: 10px;
-	background: #D1E7F9;
+	background: #C1EFEF;
 	width: 300px;
 	height: 30px;
 }
@@ -308,12 +316,8 @@ textarea {
 	margin-bottom: 5px
 }
 
-h1 a {
-	color: #FBFCD0;
-}
-
 footer h1 {
-	padding-bottom: 150px;
+	padding-bottom: 100px;
 }
 
 
