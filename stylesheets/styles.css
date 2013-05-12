@@ -100,7 +100,7 @@ h2 {
 	color: #7A21A6; 
 	font-family: impact; 
 	font-size: 40px; 
-	background-color: #F6F1F9;
+/*	background-color: #F6F1F9;*/
 	margin-top: 20px;
 	margin-bottom: 20px; 
 }
@@ -203,7 +203,7 @@ article {
 	background-color: #FFFFFF; 
 	margin: 0 auto;
 	width: 1000px;
-	height: 1000px;
+	display: inline-block;
 	margin-top: 20px;
 	border-radius: 5px;
 }
@@ -318,6 +318,14 @@ textarea {
 
 footer h1 {
 	padding-bottom: 100px;
+}
+
+.container p:hover {
+	background-color: #F6F1F9;
+}
+
+.containger p {
+	font-color: #7A21A6;
 }
 
 
