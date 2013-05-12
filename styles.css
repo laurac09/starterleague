@@ -95,7 +95,8 @@ h2 {
 	color: #7B86E2; 
 	font-family: impact; 
 	font-size: 40px; 
-	background-color: #D1E7F9;
+/*	background-color: #D1E7F9;*/
+	background-color: none;
 	margin-top: 20px;
 	margin-bottom: 20px; 
 }
@@ -104,7 +105,7 @@ body {
 /*	background-color: #FBFCD0; */
 	color: #7286B5; 
 	font-family: verdana;
-	margin: 0 auto;z
+	margin: 0 auto;
 	width: 1000px;
 	background-size: 1000px;
 	background-image: url('images/Chevron.jpg');
@@ -181,14 +182,14 @@ header img {
 	margin-left: 20px;
 	margin-top: 20px;
 }
-
-header {
+/*/*
+/*/*header {
 	background-color: #FFFFFF; 
 	margin: 0 auto;
 	width: 1000px;
 	height: 350px;
 	margin-top: 20px;
-	border-radius: 2px;
+	border-radius: 2px;*/
 }
 
 article {
@@ -197,7 +198,7 @@ article {
 	width: 1000px;
 	height: 1000px;
 	margin-top: 20px;
-	border-radius: 5px;
+	border-radius: 5px;*/*/*/
 }
 
 #p1 {
@@ -314,6 +315,10 @@ h1 a {
 
 footer h1 {
 	padding-bottom: 150px;
+}
+
+#more {
+	background: none;
 }
 
 
