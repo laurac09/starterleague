@@ -9,7 +9,7 @@ a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
-dl, dt, dd, ol, ul, li,
+dl, dt, dd, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+ul {
 	list-style: none;
 }
 blockquote, q {
@@ -328,4 +328,108 @@ footer h1 {
 	font-color: #7A21A6;
 }
 
+#expirement p {
+	background-color: #FFF;
+	width: 400px;
+}
+
+#days {
+	float: left;
+	padding-left: 280px;
+}
+
+#days ul {
+	background: #DCDCDC;
+	padding-right: 50px;
+	margin-top: -20px;
+}
+
+#days li {
+	padding-left: 40px;
+}
+
+.top h3 {
+	padding-left: 140px;
+	background-color: #1E90FF;
+	color: #FFFFFF;
+	font-family: helvetica;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	margin-left: 280px;
+	margin-right: 269px;
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+}
+
+#week1 {
+	float: left;
+	margin-left: -458px;
+	padding-top: 20px;
+}
+
+#week1 li {
+	padding-left: 35px;
+}
+
+#week2 {
+	float: left;
+	padding-top: 20px;
+	margin-left: -215px;
+}
+
+#week2 li {
+	padding-left: 40px;
+}
+
+#week3 {
+	float: left;
+	margin-left: -463px;
+	padding-top: 70px;
+}
+#week3 li {
+	padding-left: 45px;
+}
+
+#week4 {
+	float: left;
+	padding-top: 70px;
+	margin-left: -150px;
+}
+
+#week4 li {
+	padding-left: 33px;
+}
+
+#week5 {
+	float: left;
+	margin-left: 275px;
+	padding-top: -5px;
+}
+
+#week5 li {
+	padding-left: 33px;
+
+}
+
+#week6 {
+	float: left;
+	margin-left: 275px;
+	padding-top: -5px;
+}
+
+#week6 li {
+	padding-left: 33px;
+	
+}
+
+#week7 {
+	float: left;
+	margin-left: 275px;
+	padding-top: -5px;
+}
+
+#week7 li {
+	padding-left: 33px;
+	
+}
 
