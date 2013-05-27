@@ -232,7 +232,7 @@ article img {
 	border-top-left-radius: 5px
 }
 
-article p {
+.container p {
 	margin-left: 10px;
 	margin-top: 0px;
 	padding-top: 10px;
@@ -263,7 +263,7 @@ a {
 }
 
 section {
-	background-color: #D1E7F9;
+	background-color: #F6F1F9;
 	margin: 0 auto;
 	width: 1000px;
 	height: 500px;
@@ -274,12 +274,33 @@ section {
 form {
 	float: left;
 	margin: 50px 0 0 250px;
-	background-color: #D1E7F9;
+	background-color: #F6F1F9;
 }
+
+input {
+	font-family: helvetica;
+	font-size: 16px;
+	border-radius: 5px;
+}
+
+#submit {
+	background-color: #FFF;
+}
+
+textarea {
+	font-family: helvetica;
+	font-size: 16px;
+	border-radius: 5px;
+	width: 500px;
+	height: 200px;
+	padding: 5px;
+	margin-bottom: 5px
+}
+
 
 form li {
 	list-style: none;
-	martin-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 form ul {
@@ -307,13 +328,6 @@ label {
 
 #comments {
 	margin: 5px 0 5px 0;
-}
-
-textarea {
-	width: 500px;
-	height: 200px;
-	padding: 5px;
-	margin-bottom: 5px
 }
 
 footer h1 {
@@ -431,5 +445,20 @@ footer h1 {
 #week7 li {
 	padding-left: 33px;
 	
+}
+
+#journal {
+	background-color: #FFF;
+	margin: 0 20px 0 20px;
+}
+
+.left {
+	float: left;
+	margin: 10px;
+}
+
+.right {
+	float: right;
+	margin: 10px;
 }
 
